@@ -11,7 +11,7 @@ The dataset is large, I experimented with byclass, digits and letters. The lette
 
 Figure2: A custom desinged CNN model
 
-In the evaluation stage, a upper case letter hand writing image has been used. The image is processed through image processing stage, which binarize and segments an image into characters by find contours method. These images are then resized to (28, 28). Those small characters are then fed to the model for prediction. Modle prediction then plotted on a bounding box an original image.
+In the evaluation stage, a upper case letter hand writing image has been used. The image is processed through image processing stage, which binarize and segments an image into characters by find contours method. These images are then resized to (28, 28). Those small characters are then fed to the model for prediction. Model prediction then plotted on a bounding box an original image.
 
 ![segmented_char](https://user-images.githubusercontent.com/61932757/152636638-24322c96-9380-4418-ac6b-25f58bb1cb6b.png) ![segmented_cahr6](https://user-images.githubusercontent.com/61932757/152636642-a89c0e43-e736-4dee-8f5a-0e4a9b4702dc.png)
 
