@@ -1,0 +1,7 @@
+# Hand writing recognition
+
+In this repo, SVM and Convolutinal neural network have been trained on [EMNIST dataset](https://arxiv.org/pdf/1702.05373.pdf). The EMNIST data contains images of hand writing, it consists of digits, [MNIST](http://yann.lecun.com/exdb/mnist/), byclass, bymerge, and letters. The images in the dataset has shape of (28, 28) with 1 channel (grayscale). In the dataset, there are  731,668, 82,587 training and testing byclass images respectively. More inforamtion in this [paper](https://arxiv.org/pdf/1702.05373.pdf).
+
+The dataset is large, I experimented with byclass, digits and letters. The letters dataset has been trained using a custom designed Convolutional neural network and SVM for comparsion purposes. The model has acheived 90% test accuracy on letters dataset and 78% when trained using support vector machines. When it trained on upper case lettes it achieved 98% test accuracy. The model confuses some upper case letters with lower cases letters when trained on byclass category. 
+
+In the evaluation stage, a upper case letter hand writing image has been used. The image is processed through image processing stage, which binarize and segments an image into characters by find contours method. These images are then resized to (28, 28). Those small characters are then fed to the model for prediction. Modle prediction then plotted on a bounding box an original image.
