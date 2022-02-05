@@ -17,13 +17,9 @@ In the evaluation stage, a upper case letter hand writing image has been used. T
 
 Figure3: Segmented characters in a test image
 
-![origina_img](https://user-images.githubusercontent.com/61932757/152636656-e50739e2-52be-44e5-82b7-84748f41a5ea.png)
+![origina_img](https://user-images.githubusercontent.com/61932757/152636656-e50739e2-52be-44e5-82b7-84748f41a5ea.png) ![output_img](https://user-images.githubusercontent.com/61932757/152636660-1eae0520-6c24-4274-b08c-0a5b886b2201.png)
 
-Figure4: original test image
-
-![output_img](https://user-images.githubusercontent.com/61932757/152636660-1eae0520-6c24-4274-b08c-0a5b886b2201.png)
-
-Figure5: resulting image
+Figure5: a) resulting image b) resulting image
 
 ![result](https://user-images.githubusercontent.com/61932757/152636672-c694da64-b6ee-46eb-945d-16389d867027.png) ![result1](https://user-images.githubusercontent.com/61932757/152636676-098c93da-cc66-45a1-bdfd-99022e7ee7dd.png)
 
