@@ -73,11 +73,11 @@ run(model,training_dl, testing_dl, n_epochs, learning_rate)
 ## Demo
 ![App Screenshot](https://github.com/faizan1234567/Hand-writing-recognition/blob/main/images/origina_img.png?raw=true) ![App Screenshot](https://github.com/faizan1234567/Hand-writing-recognition/blob/main/images/output_img.png?raw=true) 
 
-Figure: 4 Resulting image  Figure: 3 An original test image
+Figure: 4 Resulting image                                   Figure: 3 An original test image
 
 ![App Screenshot](https://github.com/faizan1234567/Hand-writing-recognition/blob/main/images/result1.png?raw=true) ![App Screenshot](https://github.com/faizan1234567/Hand-writing-recognition/blob/main/images/result.png?raw=true)
 
-Figure: 6 capital letters recognition  Figure: 5 OCR output character recognition
+Figure: 6 capital letters recognition                       Figure: 5 OCR output character recognition
 
 ## License
 
