@@ -13,12 +13,14 @@ testing byclass images respectively.
 More dataset inforamtion in this [paper](https://arxiv.org/pdf/1702.05373.pdf).
 
 ![App Screenshot](https://github.com/faizan1234567/Hand-writing-recognition/blob/main/images/segmented_char5.png?raw=true)
+
 Figure: 1 An (28, 28) image in EMNIST dataset
 
 The dataset has been trained using [custom designed Convolutional neural networks](https://github.com/faizan1234567/Hand-writing-recognition/blob/main/training%26val%20files/models.ipynb).
 The model shows 98% test accuracy on capital letters.
 
 ![App Screenshot](https://github.com/faizan1234567/Hand-writing-recognition/blob/main/images/model_detail.png?raw=true)
+
 Figure: 2 A custom designed CNN model summary
 
 
@@ -69,12 +71,19 @@ run(model,training_dl, testing_dl, n_epochs, learning_rate)
 
 
 ## Demo
-![App Screenshot](https://github.com/faizan1234567/Hand-writing-recognition/blob/main/images/origina_img.png?raw=true)Figure: 3 An original test image![App Screenshot](https://github.com/faizan1234567/Hand-writing-recognition/blob/main/images/output_img.png?raw=true) Figure: 4 Resulting image
+![App Screenshot](https://github.com/faizan1234567/Hand-writing-recognition/blob/main/images/origina_img.png?raw=true)
+
+Figure: 3 An original test image
+![App Screenshot](https://github.com/faizan1234567/Hand-writing-recognition/blob/main/images/output_img.png?raw=true) 
+
+Figure: 4 Resulting image
 
 ![App Screenshot](https://github.com/faizan1234567/Hand-writing-recognition/blob/main/images/result1.png?raw=true)
+
 Figure: 5 OCR output character recognition
 
 ![App Screenshot](https://github.com/faizan1234567/Hand-writing-recognition/blob/main/images/result.png?raw=true)
+
 Figure: 6 capital letters recognition
 ## License
 
